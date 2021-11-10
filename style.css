@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo_container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.logo_container .logo {
+}
+
+.image_container {
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  border-radius: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sketch {
+  width: 90%;
+  height: 90%;
+  min-width: 560px;
+
+  /* object-fit: cover; */
+}
+
+audio {
+  margin: 0;
+  height: 20px;
+}
+figcaption {
+  /* height: 5%; */
+  bottom: 3em;
+  position: relative;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lightest;
+  text-align: center;
+}
+figcaption p {
+  margin: 0;
+}
+
+footer {
+  margin-bottom: 1.5em;
+}
